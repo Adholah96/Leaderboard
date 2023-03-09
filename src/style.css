@@ -38,16 +38,14 @@ main {
 #submit {
   margin-top: 2rem;
   padding: 4px 15px;
+  cursor: pointer;
 }
 
 .current-scores-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-button {
-  padding: 2px 15px;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -62,4 +60,11 @@ li {
 
 li:nth-child(even) {
   background-color: rgb(226, 226, 226);
+}
+
+.refreshbtn {
+  border: 2px solid black;
+  padding: 2px 20px;
+  background-color: rgb(242, 242, 242);
+  cursor: pointer;
 }
