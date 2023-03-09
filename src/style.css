@@ -53,6 +53,7 @@ main {
   transition: all 0.4s ease-in;
   font-family: 'Shantell Sans', cursive;
 }
+
 #submit:hover {
   background-color: #d9afd9;
 }
@@ -79,7 +80,6 @@ li:nth-child(even) {
 }
 
 .refreshbtn {
-  border: 2px solid black;
   padding: 10px 20px;
   background-color: rgb(242, 242, 242);
   cursor: pointer;
@@ -87,9 +87,11 @@ li:nth-child(even) {
   border: none;
   transition: all 0.4s ease-in;
 }
+
 .refreshbtn:hover {
   background-color: #d9afd9;
 }
+
 form {
   margin-top: 3rem;
   font-family: 'Shantell Sans', cursive;
