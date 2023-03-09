@@ -182,7 +182,7 @@ Always leave a ⭐️ if you like this project and any of my other projects.
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-Passing my sincere gratitude to Cynthia from Behance for the design template.
+Passing my sincere gratitude to my mentors, CR, and other micronauts for constant advise and lessons.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

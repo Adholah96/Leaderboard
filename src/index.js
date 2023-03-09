@@ -32,7 +32,6 @@ const init = async () => {
 
   if (form) {
     form.addEventListener('submit', addScore);
-    form.clear();
   }
 
   if (refreshBtn) {
