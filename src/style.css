@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -7,12 +9,16 @@
 
 body {
   margin: 2rem;
+  background-color: #d9afd9;
+  background-image: linear-gradient(90deg, #d9afd9 30%, #97d9e1 100%);
+  font-family: 'Shantell Sans', cursive;
 }
 
 header {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 main {
@@ -31,14 +37,24 @@ main {
 
 .add-scores input {
   margin-top: 2rem;
-  padding: 4px 10px;
+  padding: 15px 10px;
   width: 60%;
+  border: none;
+  border-radius: 30px;
+  background-color: #e7d6e7;
 }
 
 #submit {
   margin-top: 2rem;
-  padding: 4px 15px;
+  padding: 10px 20px;
   cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.4s ease-in;
+  font-family: 'Shantell Sans', cursive;
+}
+#submit:hover {
+  background-color: #d9afd9;
 }
 
 .current-scores-header {
@@ -49,7 +65,6 @@ main {
 }
 
 ul {
-  border: 2px solid black;
   margin-top: 2rem;
 }
 
@@ -59,12 +74,23 @@ li {
 }
 
 li:nth-child(even) {
-  background-color: rgb(226, 226, 226);
+  background-color: #d1eef1;
+  border-radius: 30px;
 }
 
 .refreshbtn {
   border: 2px solid black;
-  padding: 2px 20px;
+  padding: 10px 20px;
   background-color: rgb(242, 242, 242);
   cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.4s ease-in;
+}
+.refreshbtn:hover {
+  background-color: #d9afd9;
+}
+form {
+  margin-top: 3rem;
+  font-family: 'Shantell Sans', cursive;
 }
