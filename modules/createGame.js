@@ -9,15 +9,11 @@ const createGame = (gameName) => {
       body: JSON.stringify({
         name: gameName,
       }),
-    }
+    },
   )
     .then((response) => response.json())
-    .then((data) => {
-      console.log('New game created:', data.result)
-    })
-    .catch((error) => {
-      console.error('Error creating game:', error)
-    })
-}
+    .then((data) => data.result)
+    .catch((error) => error);
+};
 
-export default createGame
+export default createGame;

@@ -1,6 +1,6 @@
 const postData = (name, score) => {
   fetch(
-    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/QKLvYjVExl4PXXpmAVgS/scores/`,
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/QKLvYjVExl4PXXpmAVgS/scores/',
     {
       method: 'POST',
       headers: {
@@ -8,19 +8,13 @@ const postData = (name, score) => {
       },
       body: JSON.stringify({
         user: name,
-        score: score,
+        score,
       }),
-    }
+    },
   )
-    .then((res) => {
-      return res.json()
-    })
-    .then((data) => {
-      console.log(`New score created: ${data.result}`)
-    })
-    .catch((e) => {
-      return e
-    })
-}
+    .then((res) => res.json())
+    .then((data) => data.result)
+    .catch((e) => e);
+};
 
-export default postData
+export default postData;
